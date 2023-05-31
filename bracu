@@ -1,0 +1,238 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>.:: BRAC University ::.</title>
+    <link rel="shortcut icon" href="/academia/../academia/images/layout/favicon.gif"
+          type="image/x-icon"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/academia/css/yui-core.css"/>
+    <link rel="stylesheet" href="/academia/css/base-min.css"/>
+    <link rel="stylesheet" href="/academia/css/style.css"/>
+    <link rel="stylesheet" href="/academia/css/academiaElements.css"/>
+    <link rel="stylesheet" href="/academia/css/academiaTheme.css"/>
+
+    <script src="/academia/js/jquery-latest.pack.js" type="text/javascript"></script>
+    <script src="/academia/js/jcarousellite_1.0.1c4.js" type="text/javascript"></script>
+
+    <style>
+    #newsticker-demo {
+        background: #EAF4F5;
+        padding: 5px 5px 0;
+        font-family: Verdana, Arial, Sans-Serif;
+        font-size: 12px;
+        height: 205px !important;
+    }
+
+    #newsticker-demo a {
+        text-decoration: none;
+    }
+
+    #newsticker-demo img {
+        border: 2px solid #FFFFFF;
+    }
+
+    #newsticker-demo .title {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .newsticker-jcarousellite {
+        width: 500px;
+        margin-top: 15px;
+    }
+
+    .newsticker-jcarousellite ul li {
+        list-style: none;
+        display: block;
+        padding-bottom: 1px;
+        margin-bottom: 5px;
+    }
+
+    .newsticker-jcarousellite .thumbnail {
+        float: left;
+        width: 140px;
+    }
+
+    .newsticker-jcarousellite .info {
+        float: left;
+        width: 360px;
+    }
+
+    .newsticker-jcarousellite .info span.cat {
+        display: block;
+        font-size: 10px;
+        color: #808080;
+    }
+
+    /* Gold Action Buttons */
+    span.update-btn, span.openwindow-btn, span.comment-btn, span.login-btn, span.edit-btn, span.addnote-btn {
+        padding: 0px;
+        border: 1px solid #ff9600;
+        background-color: #ffe976;
+        background-position: 0px -614px;
+        background-repeat: repeat-x;
+    }
+
+    span.update-btn span.btn-rightside, span.openwindow-btn span.btn-rightside, span.comment-btn span.btn-rightside, span.addnote-btn span.btn-rightside {
+        background: none;
+        padding: 0px;
+    }
+
+    span.update-btn button, span.openwindow-btn button, span.comment-btn button, span.addnote-btn button {
+        background: none;
+        padding: 0px;
+    }
+
+    span.update-btn span.btn-text, span.openwindow-btn span.btn-text, span.comment-btn span.btn-text, span.addnote-btn span.btn-text {
+        color: #006699;
+    }
+
+    span.update-btn button.no-icon, span.openwindow-btn button.no-icon, span.comment-btn button.no-icon, span.addnote-btn button.no-icon {
+        padding: 0px;
+    }
+
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+            $(".newsticker-jcarousellite").jCarouselLite({
+                vertical: true,
+                hoverPause: true,
+                visible: 2,
+                auto: 300,
+                speed: 1000
+            });
+        });
+    </script>
+
+</head>
+
+<body role="document">
+<div id="login" class="login">
+<div id="doc4" class="yui-t6">
+
+<div class="hd-bkg">
+    <div id="hd" role="banner">
+        <div id="at-header">
+            <div id="at-banner">
+                <img src="/academia/images/header/Logo.png" width="100px" height="90px" alt="BRAC UNIVERSITY"/>
+
+                <div id="at-logo">
+                    <a href="#" title="BRAC UNIVERSITY"></a>
+                </div>
+
+                <div id="at-topnav">
+                    <h1 id="portalWelcome">BRAC UNIVERSITY</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bd-bkg">
+    <div id="bd">
+        
+
+        <div role="complementary" style="width: 60%; padding-left: 20%; padding-top: 15%; padding-bottom: 20%;">
+            <link rel="stylesheet" href="/academia/css/academiaElements1.css"/>
+
+            <form action='/academia/j_spring_security_check' method='POST' id='loginForm' autocomplete='on'>
+                <div></div>
+
+                <div class="at-panel loginpanel">
+                    <!-- Graphic Border - Begin Part 1 -->
+                    <div class="border-top">
+                        <div class="edge-tl"></div>
+
+                        <div class="edge-tr"></div>
+                    </div>
+
+                    <div class="at-panelcontainer">
+                        <div class="hd">
+                            <div class="title"><label ID="Label1" for="Login">Login</label></div>
+                        </div>
+
+                        <div class="bd" style="padding-left: 20%;">
+                            <div class="formlayout loginform">
+                                <fieldset class="default"><legend></legend>
+
+                                    <div class="formelements">
+                                        <div>
+                                            <div class="fieldstatus">
+                                                
+                                            </div>
+
+                                            <label for="username" id="lbl_username">Username:</label>
+                                            <input name="j_username" type="text" id="username" class="validtxt"/>
+                                        </div>
+
+                                        <div>
+                                            <label for="password" id="lbl_password">Password:</label>
+                                            <input name="j_password" type="password" id="password" class="validtxt"/>
+                                        </div>
+
+                                        <div>
+                                            <div class="space_block"></div>
+                                            <!-- [Default Button Begins] -->
+                                            <span class="button login-btn"><span class="btn-rightside">
+                                                <button id="ctl00_leftColumn_ctl00_btnLogin" type="submit" class="lock-icon">
+                                                    <span class="icon"></span>
+                                                    <span class="btn-text" style="font-size:110%">Login</span>
+                                                </button>
+                                            </span></span>
+                                            <!-- [Default Button Ends] -->
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                        <div class="ft" style="padding-left: 35%;">
+                            <ul class="v-list no-bullet">
+                                <li>
+                                    <a href="/academia/authentication/showRecover"
+                                       title="Forgot Username/Password?" class="dude-icon lefticon">
+                                        <span class="icon"></span>Forgot Username/Password?
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- close  ft -->
+                    </div>
+
+                    <!-- Graphic Border - Begin Part 2 -->
+                    <div class="border-bottom">
+                        <div class="edge-bl"></div>
+
+                        <div class="edge-br"></div>
+                    </div>
+                    <!-- Graphic Border - End Part 2 -->
+                </div>
+
+                <!-- START LOGIN PAGE MESSAGE -->
+                <p>
+                    
+                        
+                            <br><a href="https://helpdesk.bracu.ac.bd/"  target = "_blank"><button type="button" class="btn btn-primary" style="background-color:#92B7C3; color:#FFFFFF; padding: 15px 25px;
+  text-decoration: none; border: none; border-radius: 15px;margin-left: 200px;align:center; cursor: pointer">Help Desk (For Student)</button></a>
+                        
+                    
+                </p>
+                <!-- END LOGIN PAGE MESSAGE -->
+
+                <script type="text/javascript">
+                    //<![CDATA[
+                    //]]>
+                </script>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
